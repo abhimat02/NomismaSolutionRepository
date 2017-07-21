@@ -19,6 +19,7 @@ public class Demo {
 	driver.findElement(By.id("ctl00_cPH_login")).sendKeys("admin");
 	driver.findElement(By.id("ctl00_cPH_pass")).sendKeys("admin1");
 	driver.findElement(By.id("ctl00_cPH_btnLogin")).click();
+	System.out.println("Log out success");
 	
 	//driver.findElement(By.id("ctl00_cPHFilter_txtAgentName")).sendKeys("Nomisma");
 	//driver.findElement(By.id("ctl00_cPHFilter_btnSearch")).click();
